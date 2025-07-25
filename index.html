@@ -1,0 +1,603 @@
+<body>
+    <div class="conthiner">
+        <header>
+            <h1><i class="fas fa-project-diagram"></i> Assignment from  Dreaming</h1>
+            
+        </header>
+        
+        <div class="workflow-conthiner">
+            <div class="workflow-header">
+                <h2>HI DREAM!</h2>
+            </div>
+            
+
+            <div class="workflow-canvas" id="canvas">
+                <div class="grid-lines"></div>
+                
+                <svg class="connection" width="100%" height="100%">
+                </svg>
+                
+                <div class="node" id="win-in" style="left: 150px; top: 200px;">
+                    <div class="node-header" style="background: var(--win);">
+                        <i class="fab fa-win"></i> FUNCTION 1
+                    </div>
+                    <div class="node-content">
+                        <p>lololololololoollololololol</p>
+                    </div>
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                <div class="node" id="dream" style="left: 350px; top: 200px;">
+                    <div class="node-header" style="background: var(--dream);">
+                        <i class="fas fa-code"></i> FUNCTION 2
+                    </div>
+                    <div class="node-content">
+                        <p>AHAHAHAHAHHAHAHAHAHAHAHAHA</p>
+                    </div>
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                <div class="node" id="hi" style="left: 550px; top: 200px;">
+                    <div class="node-header" style="background: var(--hi);">
+                        <i class="fas fa-brhin"></i> FUNCTION 3
+                    </div>
+                    <div class="node-content">
+                        <p>HEHEHEHEHEHHEEHHEHEHEHEHHEHEHEHEEH</p>
+                    </div>
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                <div class="node" id="wow" style="left: 750px; top: 200px;">
+                    <div class="node-header" style="background: var(--wow);">
+                        <i class="fas fa-route"></i> FUNCTION 4
+                    </div>
+                    <div class="node-content">
+                        <p>WOWOWOWOWOWOOWOWOWOWOWOWOW</p>
+                    </div>
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                <div class="node" id="gg" style="left: 900px; top: 100px;">
+                    <div class="node-header" style="background: var(--gg);">
+                        <i class="fab fa-gg"></i> FUNCTION 5
+                    </div>
+                    <div class="node-content">
+                        <p>KEKEKEKEKEKKEKEKEKEK</p>
+                    </div>
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+                
+                    <div class="node-connector node-input"></div>
+                    <div class="node-connector node-output"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--win);"></div>
+                <span>FUNCTION 1</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--dream);"></div>
+                <span>FUNCTION 2</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--hi);"></div>
+                <span>FUNCTION 3</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--wow);"></div>
+                <span>FUNCTION 4</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: var(--gg);"></div>
+                <span>FUNCTION 5</span>
+            </div>
+            
+            
+        </div>
+        
+        
+        <footer>
+            <p>Made by anus_69  </p>
+            
+        </footer>
+
+        <style>
+:root {
+    --win: #25D366;
+    --tt: #E1306C;
+    --solala: #4267B2;
+    --gg: #1DA1F2;
+    --cow: #0F9D58;
+    --bank: #0070BA;
+    --hi: #FF6B00;
+    --wow: #6A0DAD;
+    --dream: #5D4037;
+    --formatting: #4A6572;
+    --connection: #a0a0ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #8e1eb0 0%, #b0259f 100%);
+    color: #e0e0ff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.conthiner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #a0a0ff;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.workflow-conthiner {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    background: rgba(100, 2, 107, 0.6);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 12px 40px rgba(59, 3, 63, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.workflow-conthiner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(74, 144, 226, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(231, 76, 60, 0.1) 0%, transparent 40%);
+    pointer-events: none;
+}
+
+.workflow-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+.workflow-canvas {
+    flex-grow: 1;
+    min-height: 600px;
+    background: rgba(20, 20, 40, 0.5);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.grid-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(100, 100, 200, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100, 100, 200, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.node {
+    position: absolute;
+    width: 200px;
+    background: rgba(30, 30, 60, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    cursor: move;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    z-index: 2;
+}
+
+.node:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.node-header {
+    padding: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.node-content {
+    padding: 15px;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 1.5;
+}
+
+.node-connector {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    cursor: crosshhir;
+    z-index: 5;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.node-input {
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.node-output {
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.connection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.connection-path {
+    stroke-width: 3;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 5, 5;
+    animation: flow 3s linear infinite;
+}
+
+@keyframes flow {
+    0% {
+        stroke-dashoffset: 10;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+
+
+.step-number {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.node-dethils {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.node-dethils h4 {
+    margin-bottom: 15px;
+    color: #4facfe;
+}
+
+.dethils-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.dethil-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dethil-item h5 {
+    margin-bottom: 10px;
+    color: #4facfe;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #a0a0ff;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .workflow-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .controls {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .node {
+        width: 180px;
+    }
+}
+
+        </style>
+    </div>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const connections = [
+        { from: 'win-in', to: 'dream', color: 'var(--win)' },
+        { from: 'dream', to: 'hi', color: 'var(--dream)' },
+        { from: 'hi', to: 'wow', color: 'var(--hi)' },
+        { from: 'wow', to: 'gg', color: 'var(--gg)' },
+        
+        { from: 'wow', to: 'kek', color: 'var(--tt)' },
+        { from: 'wow', to: 'bank', color: 'var(--bank)' },
+        { from: 'gg', to: 'formatting', color: 'var(--gg)' },
+        { from: 'tt', to: 'formatting', color: 'var(--tt)' },
+    ];
+
+    function calculatePath(fromNode, toNode) {
+        const fromRect = fromNode.getBoundingClientRect();
+        const toRect = toNode.getBoundingClientRect();
+        const canvasRect = document.getElementById('canvas').getBoundingClientRect();
+        
+        const fromX = fromRect.left + fromRect.width - canvasRect.left;
+        const fromY = fromRect.top + fromRect.height/2 - canvasRect.top;
+        const toX = toRect.left - canvasRect.left;
+        const toY = toRect.top + toRect.height/2 - canvasRect.top;
+        
+        const midX = (fromX + toX) / 2;
+        
+        return `M ${fromX} ${fromY} C ${midX} ${fromY}, ${midX} ${toY}, ${toX} ${toY}`;
+    }
+
+    // Dessiner les connexions
+    function drawConnections() {
+        const svg = document.querySelector('.connection');
+        svg.innerHTML = '';
+        
+        connections.forEach(conn => {
+            const fromNode = document.getElementById(conn.from);
+            const toNode = document.getElementById(conn.to);
+            
+            if (fromNode && toNode) {
+                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                path.setAttribute('d', calculatePath(fromNode, toNode));
+                path.setAttribute('class', 'connection-path');
+                path.setAttribute('stroke', conn.color);
+                svg.appendChild(path);
+            }
+        });
+    }
+
+    
+    let activeNode = null;
+    let offsetX, offsetY;
+    
+    function initDragAndDrop() {
+        const nodes = document.querySelectorAll('.node');
+        
+        nodes.forEach(node => {
+            const header = node.querySelector('.node-header');
+            
+            header.addEventListener('mousedown', function(e) {
+                activeNode = node;
+                offsetX = e.clientX - node.getBoundingClientRect().left;
+                offsetY = e.clientY - node.getBoundingClientRect().top;
+                node.style.zIndex = '100';
+                node.style.cursor = 'grabbing';
+            });
+        });
+        
+        document.addEventListener('mousemove', function(e) {
+            if (activeNode) {
+                const canvas = document.getElementById('canvas');
+                const canvasRect = canvas.getBoundingClientRect();
+                
+                let x = e.clientX - canvasRect.left - offsetX;
+                let y = e.clientY - canvasRect.top - offsetY;
+                
+         
+                x = Math.max(0, Math.min(canvasRect.width - activeNode.offsetWidth, x));
+                y = Math.max(0, Math.min(canvasRect.height - activeNode.offsetHeight, y));
+                
+                activeNode.style.left = x + 'px';
+                activeNode.style.top = y + 'px';
+                
+                drawConnections();
+            }
+        });
+        
+        document.addEventListener('mouseup', function() {
+            if (activeNode) {
+                activeNode.style.zIndex = '2';
+                activeNode.style.cursor = 'move';
+                activeNode = null;
+            }
+        });
+    }
+
+    function animateNodes() {
+        const nodes = document.querySelectorAll('.node');
+        
+        nodes.forEach((node, index) => {
+            node.style.opacity = '0';
+            node.style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                node.animate(
+                    [
+                        { opacity: 0, transform: 'translateY(20px)' },
+                        { opacity: 1, transform: 'translateY(0)' }
+                    ],
+                    {
+                        duration: 600,
+                        easing: 'ease-out',
+                        fill: 'forwards'
+                    }
+                );
+            }, index * 150);
+        });
+    }
+
+    function simulateFlow() {
+        document.querySelectorAll('.node').forEach(node => {
+            node.classList.remove('active');
+        });
+        
+        const nodeIds = [
+            'win-in', 'dream', 'hi', 'wow', 
+            'gg', 'solala', 'tt', 'cow', 'bank',
+            'formatting', 'win-out'
+        ];
+        
+        let delay = 0;
+        
+        nodeIds.forEach(id => {
+            setTimeout(() => {
+                const node = document.getElementById(id);
+                if (node) {
+                    node.classList.add('active');
+                    
+                    if (id === 'wow') {
+                        setTimeout(() => {
+                            ['gg', 'solala', 'tt', 'cow', 'bank'].forEach(platformId => {
+                                const platformNode = document.getElementById(platformId);
+                                if (platformNode) {
+                                    platformNode.classList.add('active');
+                                }
+                            });
+                        }, 500);
+                    }
+                }
+            }, delay);
+            
+            delay += id === 'wow' ? 1000 : 500;
+        });
+    }
+
+    function resetSimulation() {
+        document.querySelectorAll('.node').forEach(node => {
+            node.classList.remove('active');
+        });
+    }
+
+    window.addEventListener('resize', drawConnections);
+    drawConnections();
+    initDragAndDrop();
+    animateNodes();
+    
+    
+    document.getElementById('run-btn').addEventListener('click', simulateFlow);
+    document.getElementById('reset-btn').addEventListener('click', resetSimulation);
+    
+    document.querySelectorAll('.node').forEach(node => {
+        node.addEventListener('mouseenter', function() {
+            this.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.6)';
+        });
+        
+        node.addEventListener('mouseleave', function() {
+            this.style.boxShadow = '0 8px 30px rgba(0, 0, 0, 0.4)';
+        });
+    });
+});
+    </script>
+</body>
+</html>
